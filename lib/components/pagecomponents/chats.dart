@@ -146,6 +146,22 @@ class _Chats extends State<Chats> {
                 style: TextStyle(color: Color.fromARGB(255, 214, 197, 197)),
               ),
             ),
+            const ListTile(
+              leading: CircleAvatar(child: Icon(Icons.person)),
+              title: Text("You", style: TextStyle(color: Colors.white)),
+              subtitle: Row(
+                children: [
+                  Icon(Icons.check, color: Colors.blue),
+                  Text("file sent",
+                      style:
+                          TextStyle(color: Color.fromARGB(255, 214, 197, 197)))
+                ],
+              ),
+              trailing: Text(
+                "12.30 am",
+                style: TextStyle(color: Color.fromARGB(255, 214, 197, 197)),
+              ),
+            ),
             ListTile(
               leading: CircleAvatar(child: Image.asset("images/image5.jpg")),
               title: const Text("Mathew Store",
